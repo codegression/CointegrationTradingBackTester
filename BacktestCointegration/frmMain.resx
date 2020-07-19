@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="txtSystems.Text" xml:space="preserve">
+    <value>EURAUD	GBPCHF	30	1.125	H6	
+GBPAUD	GBPCHF	70	1.75	H6	
+EURNZD	GBPCHF	870	1.75	m30	
+CADCHF	CHFJPY	110	2	H4	
+EURCHF	GBPCAD	130	1.625	H3	
+EURCHF	USDCAD	490	1.875	H1	
+GBPCHF	GBPNZD	450	1.875	H1	
+CADCHF	USDCAD	710	1.5	m30	
+CADCHF	GBPAUD	42	1.375	H8	
+GBPCAD	GBPCHF	470	1.875	H1	
+EURAUD	EURCHF	70	1.75	H6	
+AUDCHF	EURAUD	310	2.5	H2	
+AUDCHF	GBPCAD	42	1.375	H8	
+EURGBP	GBPCHF	730	1.875	m15	
+EURCHF	GBPAUD	420	2.25	H1	
+GBPCHF	USDCAD	135	1.375	H3	
+EURCHF	GBPNZD	770	0.875	m30	
+AUDUSD	GBPCHF	480	1.25	H2	
+AUDCHF	CHFJPY	115	2.25	H4	
+CHFJPY	GBPCHF	630	0.75	H2	
+AUDCHF	GBPNZD	300	0.375	H3	
+AUDUSD	GBPAUD	34	2	D1	
+EURCHF	EURNZD	450	1.875	H1	
+AUDCHF	GBPAUD	165	1.875	H2	
+CHFJPY	EURCHF	195	1.625	H2	
+CADCHF	GBPCAD	660	0.75	H1	
+EURCAD	EURCHF	470	1.875	H1	
+AUDUSD	CHFJPY	480	1.875	H1	
+AUDUSD	GBPNZD	38	1	D1	
+AUDCHF	EURNZD	185	2.125	H2	
+GBPNZD	NZDUSD	550	1	H2	
+AUDCHF	USDCAD	155	1.875	H4	
+AUDUSD	EURCHF	325	1	H3	
+AUDJPY	EURAUD	130	2.25	H6	
+AUDJPY	GBPNZD	215	2.5	H3	
+GBPNZD	NZDJPY	300	0.875	H3	
+CHFJPY	GBPAUD	880	1.5	H1	
+CHFJPY	NZDCHF	540	0.5	H2	
+AUDCAD	GBPCHF	490	3.375	m30	
+CADCHF	GBPNZD	70	2.25	H6	
+CADCHF	EURAUD	65	1.25	H6	
+AUDUSD	USDCHF	740	1.375	H2	
+AUDUSD	EURAUD	42	1.25	D1	
+GBPNZD	NZDCHF	800	0.5	H2	
+AUDNZD	GBPCHF	900	0.75	m30	
+CADCHF	EURNZD	680	0.625	H1	
+GBPAUD	NZDCHF	730	0.625	H2	
+EURCAD	GBPCHF	210	0.75	H2	
+AUDCHF	USDJPY	480	1.875	H1	
+AUDCHF	EURGBP	30	1.125	H6	
+AUDUSD	USDCAD	34	1.875	D1	
+AUDCAD	GBPAUD	135	2.25	H6	
+AUDJPY	CHFJPY	770	1.875	m30	
+AUDUSD	GBPCAD	870	0.375	H1	
+AUDCHF	EURCAD	65	1.25	H6	
+EURJPY	GBPAUD	560	1.25	H3	
+EURGBP	GBPJPY	870	1.875	m15	
+AUDJPY	USDCHF	460	1.5	H2	
+AUDJPY	GBPAUD	24	1.75	D1	
+GBPAUD	NZDUSD	340	1	H3	
+NZDCHF	USDCAD	410	0.5	H2	
+EURNZD	NZDJPY	285	0.625	H3	
+AUDJPY	GBPCHF	46	2.625	H6	
+EURAUD	NZDUSD	520	2.125	H2	
+CHFJPY	GBPNZD	610	2.5	H1	
+GBPNZD	EURUSD	560	2.25	H1	
+GBPAUD	EURUSD	215	2.125	H4	
+GBPCHF	EURUSD	345	0.5	H3	
+NZDUSD	USDCAD	790	1.375	H1	
+EURNZD	NZDUSD	40	1.25	D1	
+USDCAD	EURUSD	17	2.125	H8	
+CHFJPY	USDCHF	260	0.5	H4	
+AUDUSD	EURNZD	860	2.375	H1	
+EURAUD	GBPUSD	780	2.5	H1	
+GBPCAD	EURUSD	265	1.5	H3	
+EURGBP	GBPNZD	235	0.875	H4	
+GBPCHF	NZDUSD	110	1	H8	
+EURCHF	NZDJPY	155	0.875	H8	
+EURAUD	NZDJPY	40	1.875	D1	
+EURCHF	NZDUSD	160	0.875	H6	
+EURCHF	USDJPY	140	1.5	H3	
+EURCHF	GBPUSD	510	0.625	H2	
+CHFJPY	EURNZD	155	0.875	H8	
+CADCHF	EURCAD	980	0.625	H1	
+EURGBP	GBPCAD	305	0.625	H4	
+GBPAUD	NZDJPY	140	1.625	H6	
+EURCHF	GBPJPY	310	0.5	H4	
+AUDNZD	USDCHF	1000	0.75	H1	
+GBPCHF	NZDCAD	215	3.125	H1	
+EURAUD	NZDCHF	830	1.75	m30	
+CHFJPY	EURUSD	140	1.5	H3	
+GBPCHF	GBPJPY	540	1	H2	
+GBPJPY	EURUSD	10	2	D1	
+AUDJPY	EURNZD	115	2.5	H6	
+NZDCHF	EURUSD	250	0.875	H3	
+AUDUSD	GBPJPY	430	1.5	H2	
+EURCAD	GBPJPY	115	1.75	H2	
+GBPNZD	NZDCAD	1000	1.25	H1	
+CADJPY	GBPCHF	310	3.375	H1	
+GBPCHF	NZDJPY	185	0.625	H3	
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICD/AAAAAACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAtdb3AEKl/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAABAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAEBAQEBAAEBAAEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAQICAgEAAQEAAQICAgEAAAAAAAAA
+        AAAAAAAAAAAAAAABAgICAQABAQABAgICAQAAAAAAAAAAAAAAAAAAAAAAAAECAgIBAAEBAAECAgIBAAAA
+        AAAAAAAAAAAAAAAAAAAAAQICAgEAAQEAAQICAgEAAAAAAAAAAAAAAAAAAAAAAAABAgICAQABAQABAgIC
+        AQAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAAEBAAEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQABAQEBAQEBAQABAQAAAAAAAAAAAAAAAAAAAAAAAAEBAAEC
+        AgICAgIBAAEBAAAAAAAAAAAAAAAAAAAAAAAAAQEAAQICAgICAgEAAQEAAAAAAAAAAAAAAAAAAAAAAAAB
+        AQABAgICAgICAQABAQAAAAAAAAAAAAAAAAAAAAAAAAEBAAECAgICAgIBAAEBAAAAAAAAAAAAAAAAAAAA
+        AAAAAQEAAQEBAQEBAQEAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP//////////////////////////////////////8I////AP///4H///AAD//wAA//8A
+        AP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD/////////
+        ////////////////////////
+</value>
+  </data>
+</root>
